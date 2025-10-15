@@ -7,30 +7,34 @@
     <link rel="stylesheet" href="../_styles/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>01 - Form</h1>
-    </header>
     <main>
+      <header>
+        <h1>01 - Form</h1>
+      </header>
       <form action="/submit">
         <label for="name">Name</label>
-        <input type="text" id="name"/>
+        <input type="text" id="name" />
         <br /><br />
         <label for="email">Email</label>
         <input type="text" id="email" />
         <br /><br />
-        <span>Favorite Character</span>
-        <div>
-          <input type="radio" id="spongebob" />
-          <label for="spongebob">Spongebob</label>
-        </div>
-        <div>
-          <input type="radio" id="patrick" />
-          <label for="patrick">Patrick</label>
-        </div>
-        <div>
-          <input type="radio" id="sandy" />
-          <label for="sandy">Sandy</label>
-        </div>
+        <fieldset>
+          <legend>
+            Who is your favorite character from Spongebob Squarepants?
+          </legend>
+          <div>
+            <input type="radio" id="spongebob" />
+            <label for="spongebob">Spongebob</label>
+          </div>
+          <div>
+            <input type="radio" id="patrick" />
+            <label for="patrick">Patrick</label>
+          </div>
+          <div>
+            <input type="radio" id="sandy" />
+            <label for="sandy">Sandy</label>
+          </div>
+        </fieldset>
         <br />
         <button aria-label="Submit">Submit</button>
       </form>
