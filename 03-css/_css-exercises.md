@@ -9,19 +9,23 @@
 
 ## <a id="ex01"></a> Exercise 01 - Selectors
 
-Recreate the snapshot below by using attribute, descendant, child, and sibling selectors.
+Recreate the snapshot below by using attribute selectors for the first part of the exercise and descendant, child, and sibling selectors for the second part.
 
-<img src="../_assets/css-exercises/css-ex01-selectors.png" height=200 alt="screenshot of an exercise">
+The colors used in the exercise are listed as CSS custom properties at the top. They are teal, royalblue, violet, green, and magenta. The red is inherited from the first stylesheet linked in the exercise.
+
+Note: If the screenshot below is too small, you can open the image separately and zoom in.
+
+<kbd><img src="../_assets/css-exercises/css-ex01-selectors.png" height=200 alt="screenshot of an exercise"></kbd>
 
 ## <a id="ex02"></a> Exercise 02 - Pseudo
 
 Recreate the snapshot below using pseudo elements.
 
-<img src="../_assets/css-exercises/css-ex02-pseudo.png" height=200 alt="screenshot of an exercise">
+<kbd><img src="../_assets/css-exercises/css-ex02-pseudo.png" height=200 alt="screenshot of an exercise"></kbd>
 
 ## <a id="ex03"></a> Exercise 03 - Specificity
 
-Calculate the specificity of the rules below.
+Calculate the specificity of the rules below. Write your answers as comments below each selector.
 
 ```css
 nav .list-item > a {
@@ -45,21 +49,19 @@ div ol li ul li ol li ul li a {
 
 ## <a id="ex04"></a> Exercise 04 - Layout
 
-Update the layout in the starter files to match the screenshots below.
+Recreate the snapshot below using the 'box-sizing' and 'display' properties.
 
-<img src="../_assets/css-exercises/css-ex04-layout-01.png" height=200 alt="screenshot of a layout">
-<img src="../_assets/css-exercises/css-ex04-layout-02.png" height=200 alt="screenshot of a layout">
+<kbd><img src="../_assets/css-exercises/css-ex04-layout-02.png" height=200 alt="screenshot of a layout" style="border: 1px solid black;"></kbd>
 
 ## <a id="ex05"></a> Exercise 05 - Position
 
-Update the layout in the starter files to match the screenshots below.
+Recreate the snapshot below using the 'position' property. Use all four 'position' values, as indicated in the screenshots.
 
-<img src="../_assets/css-exercises/css-ex05-position-01.png" height=300 alt="screenshot of a layout">
-<img src="../_assets/css-exercises/css-ex05-position-02.png" height=300 alt="screenshot of a layout">
+<kbd><img src="../_assets/css-exercises/css-ex05-position-02.png" height=300 alt="screenshot of a layout"></kbd>
 
 ## <a id="ex06"></a> Exercise 06 - Media Queries
 
-Update the layout in the starter files to match the screenshots below.
+Update the layout in the starter files to match the screenshots below using media queries for the different screen sizes showns. The screenshots were taken to represent a laptop screen, a tablet screen, and a mobile screen.
 
 <img src="../_assets/css-exercises/css-ex06-media-queries-01.png" height=200 alt="screenshot of a layout">
 <img src="../_assets/css-exercises/css-ex06-media-queries-02.png" height=200 alt="screenshot of a layout">
