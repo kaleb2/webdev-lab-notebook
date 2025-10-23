@@ -1,4 +1,32 @@
-@media (min-width: 1024px) {
+:root {
+  --darkviolet: #9400d3;
+  --maroon: #800000;
+  --darkgolden: #8f6805;
+}
+
+nav {
+  background: #000000;
+}
+
+/*320*/
+@media (max-width: 500px) {
+  
+  body {
+    background: var(--darkviolet);
+    color: var(--white);
+  }
+}
+
+/*321*/
+@media (min-width: 501px) and (max-width: 768px) {
+  body {
+    background: var(--darkgolden);
+    color: var(--white);
+  }
+}
+
+
+@media (min-width: 769px) {
   body {
     background: var(--green);
     color: var(--white);
