@@ -11,23 +11,23 @@
 
 /* Use attribute selectors for the first part of the exercise */
 
-li[class=dog] {
+li[class="dog"] {
   color: var(--pink);
 }
 
-li[id=cat] {
+li[id="cat"] {
   color: var(--teal);
 }
 
-li[class=parrot] {
+li[class="parrot"] {
   color: var(--green);
 }
 
-li[class=donkey] {
+li[class="donkey"] {
   color: var(--royalblue);
 }
 
-li[class=hedgehog] {
+li[class="hedgehog"] {
   color: var(--pink);
 }
 
@@ -42,9 +42,9 @@ section li {
 }
 
 .first ~ li {
-  color: var(--pink)
+  color: var(--pink);
 }
 
 .second + li {
-  color: var(--royalblue)
+  color: var(--royalblue);
 }

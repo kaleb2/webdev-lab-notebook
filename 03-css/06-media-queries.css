@@ -4,7 +4,6 @@
   --darkgolden: #8f6805;
 }
 
-
 /* using mobile by default*/
 nav {
   position: fixed;
@@ -12,7 +11,6 @@ nav {
   left: 0;
   width: 100%;
   background-color: var(--black);
-
 }
 
 nav ul {
