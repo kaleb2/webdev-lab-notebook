@@ -4,29 +4,69 @@
   --darkgolden: #8f6805;
 }
 
+
+/* using mobile by default*/
 nav {
-  background: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--black);
+
 }
 
-/*320*/
-@media (max-width: 500px) {
-  
-  body {
-    background: var(--darkviolet);
-    color: var(--white);
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: var(--white);
+}
+
+nav ul li a:hover {
+  background-color: var(--gray1);
+}
+
+.main {
+  margin-top: 100px;
+  padding: 0 0.5em;
+}
+
+body {
+  background: var(--purple);
+  color: var(--white);
+}
+
+/* specific behavior only for mobile */
+@media (max-width: 414px) {
+  nav ul li {
+    width: 100%;
+  }
+
+  .main {
+    margin-top: 220px;
   }
 }
 
-/*321*/
-@media (min-width: 501px) and (max-width: 768px) {
+/* alterations to mobile style for bigger screens */
+@media (min-width: 415px) and (max-width: 1023px) {
   body {
-    background: var(--darkgolden);
-    color: var(--white);
+    background: var(--orange);
+    color: var(--black);
   }
 }
 
-
-@media (min-width: 769px) {
+/* laptop screen*/
+@media (min-width: 1024px) {
   body {
     background: var(--green);
     color: var(--white);
